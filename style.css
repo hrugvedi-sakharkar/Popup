@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gallery{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+.gallery img{
+    width: 500px;
+    height: auto;
+}
+.gallery img:hover{
+    filter: grayscale(80%);
+    transform: scale(1.02);
+}
